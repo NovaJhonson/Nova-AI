@@ -85,7 +85,7 @@ const handleSubmit = async (e) => {
 
     //fetch reponse du bot sur le serv
 
-    const response = await fetch('http://localhost:5000/', {
+    const response = await fetch('https://nova-ieoy.onrender.com/', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
